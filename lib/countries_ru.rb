@@ -7,7 +7,7 @@ module CountriesRu
     def method_missing(method_name, *args, &block)
       proxy_methods = [:[], :keys, :each]
       if proxy_methods.include? method_name
-        Data.send method_name, *args
+        Data.send(method_name, *args, &block)
       end
     end
   end

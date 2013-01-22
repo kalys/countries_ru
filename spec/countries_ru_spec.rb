@@ -14,6 +14,10 @@ describe CountriesRu do
   describe "#each" do
     it "should proxy to .each of countries hash" do
       CountriesRu.each.should be_kind_of(Enumerator)
+
+      countries = []
+      CountriesRu.each { |key, country| countries.push(country)}
+      countries.should_not be_empty
     end
   end
 end
