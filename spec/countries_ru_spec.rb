@@ -5,7 +5,15 @@ describe CountriesRu do
     CountriesRu['AU'].should be_kind_of(Hash)
   end
 
-  it "should return list of keys" do
-    CountriesRu.keys.should be_kind_of(Array)
+  describe "#keys" do
+    it "should proxy to .keys of data hash" do
+      CountriesRu.keys.should be_kind_of(Array)
+    end
+  end
+
+  describe "#each" do
+    it "should proxy to .each of countries hash" do
+      CountriesRu.each.should be_kind_of(Enumerator)
+    end
   end
 end
