@@ -801,8 +801,8 @@ CY: !ruby/struct:CountriesRu::Country
   location: Азия
   location_precise: Западная Азия
 KG: !ruby/struct:CountriesRu::Country
-  name: Киргизия
-  fullname: Киргизская Республика
+  name: Кыргызстан
+  fullname: Кыргызская Республика
   english: Kyrgyzstan
   alpha2: KG
   alpha3: KGZ
