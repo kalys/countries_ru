@@ -1,4 +1,5 @@
 require "bundler/gem_tasks"
+require 'countries_ru/country'
 
 namespace :countries_ru do
   desc "Fetch and parse countries data"
@@ -10,17 +11,20 @@ namespace :countries_ru do
       config.noblanks
     end
 
-    countries = {}
-
     codes = doc.xpath("//country/alpha2").map{|node| node.text }
-    codes.each do |code|
+
+    countries = codes.map do |code|
       country_node = doc.xpath("//alpha2[.='#{code}']/..")
-      countries[code] = Hash[country_node.children.map {|child| [child.name, child.text]}]
+      country = CountriesRu::Country.new *country_node.children.map {|child| child.text.strip }
+      [code, country]
     end
+
+    countries_hash = Hash[countries]
+
     lib_path = File.expand_path('../lib', __FILE__)
     file_path = [lib_path, "data", "countries.yml"].join('/')
     File.open(file_path, 'w') do |f|
-      f.write countries.to_yaml
+      f.write countries_hash.to_yaml
     end
   end
 end

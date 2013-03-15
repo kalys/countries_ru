@@ -1,5 +1,5 @@
 ---
-AB:
+AB: !ruby/struct:CountriesRu::Country
   name: Абхазия
   fullname: Республика Абхазия
   english: Abkhazia
@@ -7,17 +7,17 @@ AB:
   alpha3: ABH
   iso: '895'
   location: Азия
-  location-precise: Закавказье
-AU:
+  location_precise: Закавказье
+AU: !ruby/struct:CountriesRu::Country
   name: Австралия
-  fullname: ! ' '
+  fullname: ''
   english: Australia
   alpha2: AU
   alpha3: AUS
   iso: '036'
   location: Океания
-  location-precise: Австралия и Новая Зеландия
-AT:
+  location_precise: Австралия и Новая Зеландия
+AT: !ruby/struct:CountriesRu::Country
   name: Австрия
   fullname: Австрийская Республика
   english: Austria
@@ -25,8 +25,8 @@ AT:
   alpha3: AUT
   iso: '040'
   location: Европа
-  location-precise: Западная Европа
-AZ:
+  location_precise: Западная Европа
+AZ: !ruby/struct:CountriesRu::Country
   name: Азербайджан
   fullname: Республика Азербайджан
   english: Azerbaijan
@@ -34,8 +34,8 @@ AZ:
   alpha3: AZE
   iso: '031'
   location: Азия
-  location-precise: Западная Азия
-AL:
+  location_precise: Западная Азия
+AL: !ruby/struct:CountriesRu::Country
   name: Албания
   fullname: Республика Албания
   english: Albania
@@ -43,8 +43,8 @@ AL:
   alpha3: ALB
   iso: 008
   location: Европа
-  location-precise: Южная Европа
-DZ:
+  location_precise: Южная Европа
+DZ: !ruby/struct:CountriesRu::Country
   name: Алжир
   fullname: Алжирская Народная Демократическая Республика
   english: Algeria
@@ -52,26 +52,26 @@ DZ:
   alpha3: DZA
   iso: '012'
   location: Африка
-  location-precise: Северная Африка
-AS:
+  location_precise: Северная Африка
+AS: !ruby/struct:CountriesRu::Country
   name: Американское Самоа
-  fullname: ! ' '
+  fullname: ''
   english: American Samoa
   alpha2: AS
   alpha3: ASM
   iso: '016'
   location: Океания
-  location-precise: Полинезия
-AI:
+  location_precise: Полинезия
+AI: !ruby/struct:CountriesRu::Country
   name: Ангилья
-  fullname: ! ' '
+  fullname: ''
   english: Anguilla
   alpha2: AI
   alpha3: AIA
   iso: '660'
   location: Америка
-  location-precise: Карибский бассейн
-AO:
+  location_precise: Карибский бассейн
+AO: !ruby/struct:CountriesRu::Country
   name: Ангола
   fullname: Республика Ангола
   english: Angola
@@ -79,8 +79,8 @@ AO:
   alpha3: AGO
   iso: '024'
   location: Африка
-  location-precise: Центральная Африка
-AD:
+  location_precise: Центральная Африка
+AD: !ruby/struct:CountriesRu::Country
   name: Андорра
   fullname: Княжество Андорра
   english: Andorra
@@ -88,26 +88,26 @@ AD:
   alpha3: AND
   iso: '020'
   location: Европа
-  location-precise: Южная Европа
-AQ:
+  location_precise: Южная Европа
+AQ: !ruby/struct:CountriesRu::Country
   name: Антарктида
-  fullname: ! ' '
+  fullname: ''
   english: Antarctica
   alpha2: AQ
   alpha3: ATA
   iso: '010'
   location: Антарктика
-  location-precise: ! ' '
-AG:
+  location_precise: ''
+AG: !ruby/struct:CountriesRu::Country
   name: Антигуа и Барбуда
-  fullname: ! ' '
+  fullname: ''
   english: Antigua and Barbuda
   alpha2: AG
   alpha3: ATG
   iso: 028
   location: Америка
-  location-precise: Карибский бассейн
-AR:
+  location_precise: Карибский бассейн
+AR: !ruby/struct:CountriesRu::Country
   name: Аргентина
   fullname: Аргентинская Республика
   english: Argentina
@@ -115,8 +115,8 @@ AR:
   alpha3: ARG
   iso: '032'
   location: Америка
-  location-precise: Южная Америка
-AM:
+  location_precise: Южная Америка
+AM: !ruby/struct:CountriesRu::Country
   name: Армения
   fullname: Республика Армения
   english: Armenia
@@ -124,17 +124,17 @@ AM:
   alpha3: ARM
   iso: '051'
   location: Азия
-  location-precise: Западная Азия
-AW:
+  location_precise: Западная Азия
+AW: !ruby/struct:CountriesRu::Country
   name: Аруба
-  fullname: ! ' '
+  fullname: ''
   english: Aruba
   alpha2: AW
   alpha3: ABW
   iso: '533'
   location: Америка
-  location-precise: Карибский бассейн
-AF:
+  location_precise: Карибский бассейн
+AF: !ruby/struct:CountriesRu::Country
   name: Афганистан
   fullname: Переходное Исламское Государство Афганистан
   english: Afghanistan
@@ -142,8 +142,8 @@ AF:
   alpha3: AFG
   iso: '004'
   location: Азия
-  location-precise: Южная часть Центральной Азии
-BS:
+  location_precise: Южная часть Центральной Азии
+BS: !ruby/struct:CountriesRu::Country
   name: Багамы
   fullname: Содружество Багамы
   english: Bahamas
@@ -151,8 +151,8 @@ BS:
   alpha3: BHS
   iso: '044'
   location: Америка
-  location-precise: Карибский бассейн
-BD:
+  location_precise: Карибский бассейн
+BD: !ruby/struct:CountriesRu::Country
   name: Бангладеш
   fullname: Народная Республика Бангладеш
   english: Bangladesh
@@ -160,17 +160,17 @@ BD:
   alpha3: BGD
   iso: '050'
   location: Азия
-  location-precise: Южная часть Центральной Азии
-BB:
+  location_precise: Южная часть Центральной Азии
+BB: !ruby/struct:CountriesRu::Country
   name: Барбадос
-  fullname: ! ' '
+  fullname: ''
   english: Barbados
   alpha2: BB
   alpha3: BRB
   iso: '052'
   location: Америка
-  location-precise: Карибский бассейн
-BH:
+  location_precise: Карибский бассейн
+BH: !ruby/struct:CountriesRu::Country
   name: Бахрейн
   fullname: Королевство Бахрейн
   english: Bahrain
@@ -178,8 +178,8 @@ BH:
   alpha3: BHR
   iso: 048
   location: Азия
-  location-precise: Западная Азия
-BY:
+  location_precise: Западная Азия
+BY: !ruby/struct:CountriesRu::Country
   name: Беларусь
   fullname: Республика Беларусь
   english: Belarus
@@ -187,17 +187,17 @@ BY:
   alpha3: BLR
   iso: '112'
   location: Европа
-  location-precise: Восточная Европа
-BZ:
+  location_precise: Восточная Европа
+BZ: !ruby/struct:CountriesRu::Country
   name: Белиз
-  fullname: ! ' '
+  fullname: ''
   english: Belize
   alpha2: BZ
   alpha3: BLZ
   iso: 084
   location: Америка
-  location-precise: Карибский бассейн
-BE:
+  location_precise: Карибский бассейн
+BE: !ruby/struct:CountriesRu::Country
   name: Бельгия
   fullname: Королевство Бельгии
   english: Belgium
@@ -205,8 +205,8 @@ BE:
   alpha3: BEL
   iso: '056'
   location: Европа
-  location-precise: Западная Европа
-BJ:
+  location_precise: Западная Европа
+BJ: !ruby/struct:CountriesRu::Country
   name: Бенин
   fullname: Республика Бенин
   english: Benin
@@ -214,17 +214,17 @@ BJ:
   alpha3: BEN
   iso: '204'
   location: Африка
-  location-precise: Западная Африка
-BM:
+  location_precise: Западная Африка
+BM: !ruby/struct:CountriesRu::Country
   name: Бермуды
-  fullname: ! ' '
+  fullname: ''
   english: Bermuda
   alpha2: BM
   alpha3: BMU
   iso: '060'
   location: Америка
-  location-precise: Северная Америка
-BG:
+  location_precise: Северная Америка
+BG: !ruby/struct:CountriesRu::Country
   name: Болгария
   fullname: Республика Болгария
   english: Bulgaria
@@ -232,8 +232,8 @@ BG:
   alpha3: BGR
   iso: '100'
   location: Европа
-  location-precise: Восточная Европа
-BO:
+  location_precise: Восточная Европа
+BO: !ruby/struct:CountriesRu::Country
   name: Боливия, Многонациональное Государство
   fullname: Многонациональное Государство Боливия
   english: Bolivia, plurinational state of
@@ -241,26 +241,26 @@ BO:
   alpha3: BOL
   iso: 068
   location: Америка
-  location-precise: Южная Америка
-BQ:
+  location_precise: Южная Америка
+BQ: !ruby/struct:CountriesRu::Country
   name: Бонайре, Саба и Синт-Эстатиус
-  fullname: ! ' '
+  fullname: ''
   english: Bonaire, Sint Eustatius and Saba
   alpha2: BQ
   alpha3: BES
   iso: '535'
   location: Америка
-  location-precise: Карибский бассейн
-BA:
+  location_precise: Карибский бассейн
+BA: !ruby/struct:CountriesRu::Country
   name: Босния и Герцеговина
-  fullname: ! ' '
+  fullname: ''
   english: Bosnia and Herzegovina
   alpha2: BA
   alpha3: BIH
   iso: '070'
   location: Европа
-  location-precise: Южная Европа
-BW:
+  location_precise: Южная Европа
+BW: !ruby/struct:CountriesRu::Country
   name: Ботсвана
   fullname: Республика Ботсвана
   english: Botswana
@@ -268,8 +268,8 @@ BW:
   alpha3: BWA
   iso: '072'
   location: Африка
-  location-precise: Южная часть Африки
-BR:
+  location_precise: Южная часть Африки
+BR: !ruby/struct:CountriesRu::Country
   name: Бразилия
   fullname: Федеративная Республика Бразилия
   english: Brazil
@@ -277,35 +277,35 @@ BR:
   alpha3: BRA
   iso: '076'
   location: Америка
-  location-precise: Южная Америка
-IO:
+  location_precise: Южная Америка
+IO: !ruby/struct:CountriesRu::Country
   name: Британская территория в Индийском океане
-  fullname: ! ' '
+  fullname: ''
   english: British Indian Ocean Territory
   alpha2: IO
   alpha3: IOT
   iso: 086
   location: Океания
-  location-precise: Индийский океан
-BN:
+  location_precise: Индийский океан
+BN: !ruby/struct:CountriesRu::Country
   name: Бруней-Даруссалам
-  fullname: ! ' '
+  fullname: ''
   english: Brunei Darussalam
   alpha2: BN
   alpha3: BRN
   iso: 096
   location: Азия
-  location-precise: Юго-Восточная Азия
-BF:
+  location_precise: Юго-Восточная Азия
+BF: !ruby/struct:CountriesRu::Country
   name: Буркина-Фасо
-  fullname: ! ' '
+  fullname: ''
   english: Burkina Faso
   alpha2: BF
   alpha3: BFA
   iso: '854'
   location: Африка
-  location-precise: Западная Африка
-BI:
+  location_precise: Западная Африка
+BI: !ruby/struct:CountriesRu::Country
   name: Бурунди
   fullname: Республика Бурунди
   english: Burundi
@@ -313,8 +313,8 @@ BI:
   alpha3: BDI
   iso: '108'
   location: Африка
-  location-precise: Восточная Африка
-BT:
+  location_precise: Восточная Африка
+BT: !ruby/struct:CountriesRu::Country
   name: Бутан
   fullname: Королевство Бутан
   english: Bhutan
@@ -322,8 +322,8 @@ BT:
   alpha3: BTN
   iso: '064'
   location: Азия
-  location-precise: Южная часть Центральной Азии
-VU:
+  location_precise: Южная часть Центральной Азии
+VU: !ruby/struct:CountriesRu::Country
   name: Вануату
   fullname: Республика Вануату
   english: Vanuatu
@@ -331,8 +331,8 @@ VU:
   alpha3: VUT
   iso: '548'
   location: Океания
-  location-precise: Меланезия
-HU:
+  location_precise: Меланезия
+HU: !ruby/struct:CountriesRu::Country
   name: Венгрия
   fullname: Венгерская Республика
   english: Hungary
@@ -340,8 +340,8 @@ HU:
   alpha3: HUN
   iso: '348'
   location: Европа
-  location-precise: Восточная Европа
-VE:
+  location_precise: Восточная Европа
+VE: !ruby/struct:CountriesRu::Country
   name: Венесуэла Боливарианская Республика
   fullname: Боливарийская Республика Венесуэла
   english: Venezuela
@@ -349,8 +349,8 @@ VE:
   alpha3: VEN
   iso: '862'
   location: Америка
-  location-precise: Южная Америка
-VG:
+  location_precise: Южная Америка
+VG: !ruby/struct:CountriesRu::Country
   name: Виргинские острова, Британские
   fullname: Британские Виргинские острова
   english: Virgin Islands, British
@@ -358,8 +358,8 @@ VG:
   alpha3: VGB
   iso: 092
   location: Америка
-  location-precise: Карибский бассейн
-VI:
+  location_precise: Карибский бассейн
+VI: !ruby/struct:CountriesRu::Country
   name: Виргинские острова, США
   fullname: Виргинские острова Соединенных Штатов
   english: Virgin Islands, U.S.
@@ -367,8 +367,8 @@ VI:
   alpha3: VIR
   iso: '850'
   location: Америка
-  location-precise: Карибский бассейн
-VN:
+  location_precise: Карибский бассейн
+VN: !ruby/struct:CountriesRu::Country
   name: Вьетнам
   fullname: Социалистическая Республика Вьетнам
   english: Vietnam
@@ -376,8 +376,8 @@ VN:
   alpha3: VNM
   iso: '704'
   location: Азия
-  location-precise: Юго-Восточная Азия
-GA:
+  location_precise: Юго-Восточная Азия
+GA: !ruby/struct:CountriesRu::Country
   name: Габон
   fullname: Габонская Республика
   english: Gabon
@@ -385,8 +385,8 @@ GA:
   alpha3: GAB
   iso: '266'
   location: Африка
-  location-precise: Центральная Африка
-HT:
+  location_precise: Центральная Африка
+HT: !ruby/struct:CountriesRu::Country
   name: Гаити
   fullname: Республика Гаити
   english: Haiti
@@ -394,8 +394,8 @@ HT:
   alpha3: HTI
   iso: '332'
   location: Америка
-  location-precise: Карибский бассейн
-GY:
+  location_precise: Карибский бассейн
+GY: !ruby/struct:CountriesRu::Country
   name: Гайана
   fullname: Республика Гайана
   english: Guyana
@@ -403,8 +403,8 @@ GY:
   alpha3: GUY
   iso: '328'
   location: Америка
-  location-precise: Южная Америка
-GM:
+  location_precise: Южная Америка
+GM: !ruby/struct:CountriesRu::Country
   name: Гамбия
   fullname: Республика Гамбия
   english: Gambia
@@ -412,8 +412,8 @@ GM:
   alpha3: GMB
   iso: '270'
   location: Африка
-  location-precise: Западная Африка
-GH:
+  location_precise: Западная Африка
+GH: !ruby/struct:CountriesRu::Country
   name: Гана
   fullname: Республика Гана
   english: Ghana
@@ -421,17 +421,17 @@ GH:
   alpha3: GHA
   iso: '288'
   location: Африка
-  location-precise: Западная Африка
-GP:
+  location_precise: Западная Африка
+GP: !ruby/struct:CountriesRu::Country
   name: Гваделупа
-  fullname: ! ' '
+  fullname: ''
   english: Guadeloupe
   alpha2: GP
   alpha3: GLP
   iso: '312'
   location: Америка
-  location-precise: Карибский бассейн
-GT:
+  location_precise: Карибский бассейн
+GT: !ruby/struct:CountriesRu::Country
   name: Гватемала
   fullname: Республика Гватемала
   english: Guatemala
@@ -439,8 +439,8 @@ GT:
   alpha3: GTM
   iso: '320'
   location: Америка
-  location-precise: Центральная Америка
-GN:
+  location_precise: Центральная Америка
+GN: !ruby/struct:CountriesRu::Country
   name: Гвинея
   fullname: Гвинейская Республика
   english: Guinea
@@ -448,8 +448,8 @@ GN:
   alpha3: GIN
   iso: '324'
   location: Африка
-  location-precise: Западная Африка
-GW:
+  location_precise: Западная Африка
+GW: !ruby/struct:CountriesRu::Country
   name: Гвинея-Бисау
   fullname: Республика Гвинея-Бисау
   english: Guinea-Bissau
@@ -457,8 +457,8 @@ GW:
   alpha3: GNB
   iso: '624'
   location: Африка
-  location-precise: Западная Африка
-DE:
+  location_precise: Западная Африка
+DE: !ruby/struct:CountriesRu::Country
   name: Германия
   fullname: Федеративная Республика Германия
   english: Germany
@@ -466,26 +466,26 @@ DE:
   alpha3: DEU
   iso: '276'
   location: Европа
-  location-precise: Западная Европа
-GG:
+  location_precise: Западная Европа
+GG: !ruby/struct:CountriesRu::Country
   name: Гернси
-  fullname: ! ' '
+  fullname: ''
   english: Guernsey
   alpha2: GG
   alpha3: GGY
   iso: '831'
   location: Европа
-  location-precise: Северная Европа
-GI:
+  location_precise: Северная Европа
+GI: !ruby/struct:CountriesRu::Country
   name: Гибралтар
-  fullname: ! ' '
+  fullname: ''
   english: Gibraltar
   alpha2: GI
   alpha3: GIB
   iso: '292'
   location: Европа
-  location-precise: Южная Европа
-HN:
+  location_precise: Южная Европа
+HN: !ruby/struct:CountriesRu::Country
   name: Гондурас
   fullname: Республика Гондурас
   english: Honduras
@@ -493,8 +493,8 @@ HN:
   alpha3: HND
   iso: '340'
   location: Америка
-  location-precise: Центральная Америка
-HK:
+  location_precise: Центральная Америка
+HK: !ruby/struct:CountriesRu::Country
   name: Гонконг
   fullname: Специальный  административный  регион Китая Гонконг
   english: Hong Kong
@@ -502,26 +502,26 @@ HK:
   alpha3: HKG
   iso: '344'
   location: Азия
-  location-precise: Восточная Азия
-GD:
+  location_precise: Восточная Азия
+GD: !ruby/struct:CountriesRu::Country
   name: Гренада
-  fullname: ! ' '
+  fullname: ''
   english: Grenada
   alpha2: GD
   alpha3: GRD
   iso: '308'
   location: Америка
-  location-precise: Карибский бассейн
-GL:
+  location_precise: Карибский бассейн
+GL: !ruby/struct:CountriesRu::Country
   name: Гренландия
-  fullname: ! ' '
+  fullname: ''
   english: Greenland
   alpha2: GL
   alpha3: GRL
   iso: '304'
   location: Америка
-  location-precise: Северная Америка
-GR:
+  location_precise: Северная Америка
+GR: !ruby/struct:CountriesRu::Country
   name: Греция
   fullname: Греческая Республика
   english: Greece
@@ -529,26 +529,26 @@ GR:
   alpha3: GRC
   iso: '300'
   location: Европа
-  location-precise: Южная Европа
-GE:
+  location_precise: Южная Европа
+GE: !ruby/struct:CountriesRu::Country
   name: Грузия
-  fullname: ! ' '
+  fullname: ''
   english: Georgia
   alpha2: GE
   alpha3: GEO
   iso: '268'
   location: Азия
-  location-precise: Западная Азия
-GU:
+  location_precise: Западная Азия
+GU: !ruby/struct:CountriesRu::Country
   name: Гуам
-  fullname: ! ' '
+  fullname: ''
   english: Guam
   alpha2: GU
   alpha3: GUM
   iso: '316'
   location: Океания
-  location-precise: Микронезия
-DK:
+  location_precise: Микронезия
+DK: !ruby/struct:CountriesRu::Country
   name: Дания
   fullname: Королевство Дания
   english: Denmark
@@ -556,17 +556,17 @@ DK:
   alpha3: DNK
   iso: '208'
   location: Европа
-  location-precise: Северная Европа
-JE:
+  location_precise: Северная Европа
+JE: !ruby/struct:CountriesRu::Country
   name: Джерси
-  fullname: ! ' '
+  fullname: ''
   english: Jersey
   alpha2: JE
   alpha3: JEY
   iso: '832'
   location: Европа
-  location-precise: Северная Европа
-DJ:
+  location_precise: Северная Европа
+DJ: !ruby/struct:CountriesRu::Country
   name: Джибути
   fullname: Республика Джибути
   english: Djibouti
@@ -574,8 +574,8 @@ DJ:
   alpha3: DJI
   iso: '262'
   location: Африка
-  location-precise: Восточная Африка
-DM:
+  location_precise: Восточная Африка
+DM: !ruby/struct:CountriesRu::Country
   name: Доминика
   fullname: Содружество Доминики
   english: Dominica
@@ -583,17 +583,17 @@ DM:
   alpha3: DMA
   iso: '212'
   location: Америка
-  location-precise: Карибский бассейн
-DO:
+  location_precise: Карибский бассейн
+DO: !ruby/struct:CountriesRu::Country
   name: Доминиканская Республика
-  fullname: ! ' '
+  fullname: ''
   english: Dominican Republic
   alpha2: DO
   alpha3: DOM
   iso: '214'
   location: Америка
-  location-precise: Карибский бассейн
-EG:
+  location_precise: Карибский бассейн
+EG: !ruby/struct:CountriesRu::Country
   name: Египет
   fullname: Арабская Республика Египет
   english: Egypt
@@ -601,8 +601,8 @@ EG:
   alpha3: EGY
   iso: '818'
   location: Африка
-  location-precise: Северная Африка
-ZM:
+  location_precise: Северная Африка
+ZM: !ruby/struct:CountriesRu::Country
   name: Замбия
   fullname: Республика Замбия
   english: Zambia
@@ -610,17 +610,17 @@ ZM:
   alpha3: ZMB
   iso: '894'
   location: Африка
-  location-precise: Восточная Африка
-EH:
+  location_precise: Восточная Африка
+EH: !ruby/struct:CountriesRu::Country
   name: Западная Сахара
-  fullname: ! ' '
+  fullname: ''
   english: Western Sahara
   alpha2: EH
   alpha3: ESH
   iso: '732'
   location: Африка
-  location-precise: Северная Африка
-ZW:
+  location_precise: Северная Африка
+ZW: !ruby/struct:CountriesRu::Country
   name: Зимбабве
   fullname: Республика Зимбабве
   english: Zimbabwe
@@ -628,8 +628,8 @@ ZW:
   alpha3: ZWE
   iso: '716'
   location: Африка
-  location-precise: Восточная Африка
-IL:
+  location_precise: Восточная Африка
+IL: !ruby/struct:CountriesRu::Country
   name: Израиль
   fullname: Государство Израиль
   english: Israel
@@ -637,8 +637,8 @@ IL:
   alpha3: ISR
   iso: '376'
   location: Азия
-  location-precise: Западная Азия
-IN:
+  location_precise: Западная Азия
+IN: !ruby/struct:CountriesRu::Country
   name: Индия
   fullname: Республика Индия
   english: India
@@ -646,8 +646,8 @@ IN:
   alpha3: IND
   iso: '356'
   location: Азия
-  location-precise: Южная часть Центральной Азии
-ID:
+  location_precise: Южная часть Центральной Азии
+ID: !ruby/struct:CountriesRu::Country
   name: Индонезия
   fullname: Республика Индонезия
   english: Indonesia
@@ -655,8 +655,8 @@ ID:
   alpha3: IDN
   iso: '360'
   location: Азия
-  location-precise: Юго-Восточная Азия
-JO:
+  location_precise: Юго-Восточная Азия
+JO: !ruby/struct:CountriesRu::Country
   name: Иордания
   fullname: Иорданское Хашимитское Королевство
   english: Jordan
@@ -664,8 +664,8 @@ JO:
   alpha3: JOR
   iso: '400'
   location: Азия
-  location-precise: Западная Азия
-IQ:
+  location_precise: Западная Азия
+IQ: !ruby/struct:CountriesRu::Country
   name: Ирак
   fullname: Республика Ирак
   english: Iraq
@@ -673,8 +673,8 @@ IQ:
   alpha3: IRQ
   iso: '368'
   location: Азия
-  location-precise: Западная Азия
-IR:
+  location_precise: Западная Азия
+IR: !ruby/struct:CountriesRu::Country
   name: Иран, Исламская Республика
   fullname: Исламская Республика Иран
   english: Iran, Islamic Republic of
@@ -682,17 +682,17 @@ IR:
   alpha3: IRN
   iso: '364'
   location: Азия
-  location-precise: Южная часть Центральной Азии
-IE:
+  location_precise: Южная часть Центральной Азии
+IE: !ruby/struct:CountriesRu::Country
   name: Ирландия
-  fullname: ! ' '
+  fullname: ''
   english: Ireland
   alpha2: IE
   alpha3: IRL
   iso: '372'
   location: Европа
-  location-precise: Северная Европа
-IS:
+  location_precise: Северная Европа
+IS: !ruby/struct:CountriesRu::Country
   name: Исландия
   fullname: Республика Исландия
   english: Iceland
@@ -700,8 +700,8 @@ IS:
   alpha3: ISL
   iso: '352'
   location: Европа
-  location-precise: Северная Европа
-ES:
+  location_precise: Северная Европа
+ES: !ruby/struct:CountriesRu::Country
   name: Испания
   fullname: Королевство Испания
   english: Spain
@@ -709,8 +709,8 @@ ES:
   alpha3: ESP
   iso: '724'
   location: Европа
-  location-precise: Южная Европа
-IT:
+  location_precise: Южная Европа
+IT: !ruby/struct:CountriesRu::Country
   name: Италия
   fullname: Итальянская Республика
   english: Italy
@@ -718,8 +718,8 @@ IT:
   alpha3: ITA
   iso: '380'
   location: Европа
-  location-precise: Южная Европа
-YE:
+  location_precise: Южная Европа
+YE: !ruby/struct:CountriesRu::Country
   name: Йемен
   fullname: Йеменская Республика
   english: Yemen
@@ -727,8 +727,8 @@ YE:
   alpha3: YEM
   iso: '887'
   location: Азия
-  location-precise: Западная Азия
-CV:
+  location_precise: Западная Азия
+CV: !ruby/struct:CountriesRu::Country
   name: Кабо-Верде
   fullname: Республика Кабо-Верде
   english: Cape Verde
@@ -736,8 +736,8 @@ CV:
   alpha3: CPV
   iso: '132'
   location: Африка
-  location-precise: Западная Африка
-KZ:
+  location_precise: Западная Африка
+KZ: !ruby/struct:CountriesRu::Country
   name: Казахстан
   fullname: Республика Казахстан
   english: Kazakhstan
@@ -745,8 +745,8 @@ KZ:
   alpha3: KAZ
   iso: '398'
   location: Азия
-  location-precise: Южная часть Центральной Азии
-KH:
+  location_precise: Южная часть Центральной Азии
+KH: !ruby/struct:CountriesRu::Country
   name: Камбоджа
   fullname: Королевство Камбоджа
   english: Cambodia
@@ -754,8 +754,8 @@ KH:
   alpha3: KHM
   iso: '116'
   location: Азия
-  location-precise: Юго-Восточная Азия
-CM:
+  location_precise: Юго-Восточная Азия
+CM: !ruby/struct:CountriesRu::Country
   name: Камерун
   fullname: Республика Камерун
   english: Cameroon
@@ -763,17 +763,17 @@ CM:
   alpha3: CMR
   iso: '120'
   location: Африка
-  location-precise: Центральная Африка
-CA:
+  location_precise: Центральная Африка
+CA: !ruby/struct:CountriesRu::Country
   name: Канада
-  fullname: ! ' '
+  fullname: ''
   english: Canada
   alpha2: CA
   alpha3: CAN
   iso: '124'
   location: Америка
-  location-precise: Северная Америка
-QA:
+  location_precise: Северная Америка
+QA: !ruby/struct:CountriesRu::Country
   name: Катар
   fullname: Государство Катар
   english: Qatar
@@ -781,8 +781,8 @@ QA:
   alpha3: QAT
   iso: '634'
   location: Азия
-  location-precise: Западная Азия
-KE:
+  location_precise: Западная Азия
+KE: !ruby/struct:CountriesRu::Country
   name: Кения
   fullname: Республика Кения
   english: Kenya
@@ -790,8 +790,8 @@ KE:
   alpha3: KEN
   iso: '404'
   location: Африка
-  location-precise: Восточная Африка
-CY:
+  location_precise: Восточная Африка
+CY: !ruby/struct:CountriesRu::Country
   name: Кипр
   fullname: Республика Кипр
   english: Cyprus
@@ -799,17 +799,17 @@ CY:
   alpha3: CYP
   iso: '196'
   location: Азия
-  location-precise: Западная Азия
-KG:
-  name: Кыргызстан
-  fullname: Кыргызская Республика
+  location_precise: Западная Азия
+KG: !ruby/struct:CountriesRu::Country
+  name: Киргизия
+  fullname: Киргизская Республика
   english: Kyrgyzstan
   alpha2: KG
   alpha3: KGZ
   iso: '417'
   location: Азия
-  location-precise: Южная часть Центральной Азии
-KI:
+  location_precise: Южная часть Центральной Азии
+KI: !ruby/struct:CountriesRu::Country
   name: Кирибати
   fullname: Республика Кирибати
   english: Kiribati
@@ -817,8 +817,8 @@ KI:
   alpha3: KIR
   iso: '296'
   location: Океания
-  location-precise: Микронезия
-CN:
+  location_precise: Микронезия
+CN: !ruby/struct:CountriesRu::Country
   name: Китай
   fullname: Китайская Народная Республика
   english: China
@@ -826,17 +826,17 @@ CN:
   alpha3: CHN
   iso: '156'
   location: Азия
-  location-precise: Восточная Азия
-CC:
+  location_precise: Восточная Азия
+CC: !ruby/struct:CountriesRu::Country
   name: Кокосовые (Килинг) острова
-  fullname: ! ' '
+  fullname: ''
   english: Cocos (Keeling) Islands
   alpha2: CC
   alpha3: CCK
   iso: '166'
   location: Океания
-  location-precise: Индийский океан
-CO:
+  location_precise: Индийский океан
+CO: !ruby/struct:CountriesRu::Country
   name: Колумбия
   fullname: Республика Колумбия
   english: Colombia
@@ -844,8 +844,8 @@ CO:
   alpha3: COL
   iso: '170'
   location: Америка
-  location-precise: Южная Америка
-KM:
+  location_precise: Южная Америка
+KM: !ruby/struct:CountriesRu::Country
   name: Коморы
   fullname: Союз Коморы
   english: Comoros
@@ -853,8 +853,8 @@ KM:
   alpha3: COM
   iso: '174'
   location: Африка
-  location-precise: Восточная Африка
-CG:
+  location_precise: Восточная Африка
+CG: !ruby/struct:CountriesRu::Country
   name: Конго
   fullname: Республика Конго
   english: Congo
@@ -862,8 +862,8 @@ CG:
   alpha3: COG
   iso: '178'
   location: Африка
-  location-precise: Центральная Африка
-CD:
+  location_precise: Центральная Африка
+CD: !ruby/struct:CountriesRu::Country
   name: Конго, Демократическая Республика
   fullname: Демократическая Республика Конго
   english: Congo, Democratic Republic of the
@@ -871,8 +871,8 @@ CD:
   alpha3: COD
   iso: '180'
   location: Африка
-  location-precise: Центральная Африка
-KP:
+  location_precise: Центральная Африка
+KP: !ruby/struct:CountriesRu::Country
   name: Корея, Народно-Демократическая Республика
   fullname: Корейская Народно-Демократическая Республика
   english: Korea, Democratic People's republic of
@@ -880,8 +880,8 @@ KP:
   alpha3: PRK
   iso: '408'
   location: Азия
-  location-precise: Восточная Азия
-KR:
+  location_precise: Восточная Азия
+KR: !ruby/struct:CountriesRu::Country
   name: Корея, Республика
   fullname: Республика Корея
   english: Korea, Republic of
@@ -889,8 +889,8 @@ KR:
   alpha3: KOR
   iso: '410'
   location: Азия
-  location-precise: Восточная Азия
-CR:
+  location_precise: Восточная Азия
+CR: !ruby/struct:CountriesRu::Country
   name: Коста-Рика
   fullname: Республика Коста-Рика
   english: Costa Rica
@@ -898,8 +898,8 @@ CR:
   alpha3: CRI
   iso: '188'
   location: Америка
-  location-precise: Центральная Америка
-CI:
+  location_precise: Центральная Америка
+CI: !ruby/struct:CountriesRu::Country
   name: Кот д'Ивуар
   fullname: Республика Кот д'Ивуар
   english: Cote d'Ivoire
@@ -907,8 +907,8 @@ CI:
   alpha3: CIV
   iso: '384'
   location: Африка
-  location-precise: Западная Африка
-CU:
+  location_precise: Западная Африка
+CU: !ruby/struct:CountriesRu::Country
   name: Куба
   fullname: Республика Куба
   english: Cuba
@@ -916,8 +916,8 @@ CU:
   alpha3: CUB
   iso: '192'
   location: Америка
-  location-precise: Карибский бассейн
-KW:
+  location_precise: Карибский бассейн
+KW: !ruby/struct:CountriesRu::Country
   name: Кувейт
   fullname: Государство Кувейт
   english: Kuwait
@@ -925,17 +925,17 @@ KW:
   alpha3: KWT
   iso: '414'
   location: Азия
-  location-precise: Западная Азия
-CW:
+  location_precise: Западная Азия
+CW: !ruby/struct:CountriesRu::Country
   name: Кюрасао
-  fullname: ! ' '
+  fullname: ''
   english: Curaçao
   alpha2: CW
   alpha3: CUW
   iso: '531'
   location: Америка
-  location-precise: Карибский бассейн
-LA:
+  location_precise: Карибский бассейн
+LA: !ruby/struct:CountriesRu::Country
   name: Лаос
   fullname: Лаосская Народно-Демократическая Республика
   english: Lao People's Democratic Republic
@@ -943,8 +943,8 @@ LA:
   alpha3: LAO
   iso: '418'
   location: Азия
-  location-precise: Юго-Восточная Азия
-LV:
+  location_precise: Юго-Восточная Азия
+LV: !ruby/struct:CountriesRu::Country
   name: Латвия
   fullname: Латвийская Республика
   english: Latvia
@@ -952,8 +952,8 @@ LV:
   alpha3: LVA
   iso: '428'
   location: Европа
-  location-precise: Северная Европа
-LS:
+  location_precise: Северная Европа
+LS: !ruby/struct:CountriesRu::Country
   name: Лесото
   fullname: Королевство Лесото
   english: Lesotho
@@ -961,8 +961,8 @@ LS:
   alpha3: LSO
   iso: '426'
   location: Африка
-  location-precise: Южная часть Африки
-LB:
+  location_precise: Южная часть Африки
+LB: !ruby/struct:CountriesRu::Country
   name: Ливан
   fullname: Ливанская Республика
   english: Lebanon
@@ -970,8 +970,8 @@ LB:
   alpha3: LBN
   iso: '422'
   location: Азия
-  location-precise: Западная Азия
-LY:
+  location_precise: Западная Азия
+LY: !ruby/struct:CountriesRu::Country
   name: Ливийская Арабская Джамахирия
   fullname: Социалистическая Народная Ливийская Арабская Джамахирия
   english: Libyan Arab Jamahiriya
@@ -979,8 +979,8 @@ LY:
   alpha3: LBY
   iso: '434'
   location: Африка
-  location-precise: Северная Африка
-LR:
+  location_precise: Северная Африка
+LR: !ruby/struct:CountriesRu::Country
   name: Либерия
   fullname: Республика Либерия
   english: Liberia
@@ -988,8 +988,8 @@ LR:
   alpha3: LBR
   iso: '430'
   location: Африка
-  location-precise: Западная Африка
-LI:
+  location_precise: Западная Африка
+LI: !ruby/struct:CountriesRu::Country
   name: Лихтенштейн
   fullname: Княжество Лихтенштейн
   english: Liechtenstein
@@ -997,8 +997,8 @@ LI:
   alpha3: LIE
   iso: '438'
   location: Европа
-  location-precise: Западная Европа
-LT:
+  location_precise: Западная Европа
+LT: !ruby/struct:CountriesRu::Country
   name: Литва
   fullname: Литовская Республика
   english: Lithuania
@@ -1006,8 +1006,8 @@ LT:
   alpha3: LTU
   iso: '440'
   location: Европа
-  location-precise: Северная Европа
-LU:
+  location_precise: Северная Европа
+LU: !ruby/struct:CountriesRu::Country
   name: Люксембург
   fullname: Великое Герцогство Люксембург
   english: Luxembourg
@@ -1015,8 +1015,8 @@ LU:
   alpha3: LUX
   iso: '442'
   location: Европа
-  location-precise: Западная Европа
-MU:
+  location_precise: Западная Европа
+MU: !ruby/struct:CountriesRu::Country
   name: Маврикий
   fullname: Республика Маврикий
   english: Mauritius
@@ -1024,8 +1024,8 @@ MU:
   alpha3: MUS
   iso: '480'
   location: Африка
-  location-precise: Восточная Африка
-MR:
+  location_precise: Восточная Африка
+MR: !ruby/struct:CountriesRu::Country
   name: Мавритания
   fullname: Исламская Республика Мавритания
   english: Mauritania
@@ -1033,8 +1033,8 @@ MR:
   alpha3: MRT
   iso: '478'
   location: Африка
-  location-precise: Западная Африка
-MG:
+  location_precise: Западная Африка
+MG: !ruby/struct:CountriesRu::Country
   name: Мадагаскар
   fullname: Республика Мадагаскар
   english: Madagascar
@@ -1042,17 +1042,17 @@ MG:
   alpha3: MDG
   iso: '450'
   location: Африка
-  location-precise: Восточная Африка
-YT:
+  location_precise: Восточная Африка
+YT: !ruby/struct:CountriesRu::Country
   name: Майотта
-  fullname: ! ' '
+  fullname: ''
   english: Mayotte
   alpha2: YT
   alpha3: MYT
   iso: '175'
   location: Африка
-  location-precise: Южная часть Африки
-MO:
+  location_precise: Южная часть Африки
+MO: !ruby/struct:CountriesRu::Country
   name: Макао
   fullname: Специальный административный регион Китая Макао
   english: Macao
@@ -1060,8 +1060,8 @@ MO:
   alpha3: MAC
   iso: '446'
   location: Азия
-  location-precise: Восточная Азия
-MW:
+  location_precise: Восточная Азия
+MW: !ruby/struct:CountriesRu::Country
   name: Малави
   fullname: Республика Малави
   english: Malawi
@@ -1069,17 +1069,17 @@ MW:
   alpha3: MWI
   iso: '454'
   location: Африка
-  location-precise: Восточная Африка
-MY:
+  location_precise: Восточная Африка
+MY: !ruby/struct:CountriesRu::Country
   name: Малайзия
-  fullname: ! ' '
+  fullname: ''
   english: Malaysia
   alpha2: MY
   alpha3: MYS
   iso: '458'
   location: Азия
-  location-precise: Юго-Восточная Азия
-ML:
+  location_precise: Юго-Восточная Азия
+ML: !ruby/struct:CountriesRu::Country
   name: Мали
   fullname: Республика Мали
   english: Mali
@@ -1087,17 +1087,17 @@ ML:
   alpha3: MLI
   iso: '466'
   location: Африка
-  location-precise: Западная Африка
-UM:
+  location_precise: Западная Африка
+UM: !ruby/struct:CountriesRu::Country
   name: Малые Тихоокеанские отдаленные острова Соединенных Штатов
-  fullname: ! ' '
+  fullname: ''
   english: United States Minor Outlying Islands
   alpha2: UM
   alpha3: UMI
   iso: '581'
   location: Океания
-  location-precise: Индийский океан
-MV:
+  location_precise: Индийский океан
+MV: !ruby/struct:CountriesRu::Country
   name: Мальдивы
   fullname: Мальдивская Республика
   english: Maldives
@@ -1105,8 +1105,8 @@ MV:
   alpha3: MDV
   iso: '462'
   location: Азия
-  location-precise: Южная часть Центральной Азии
-MT:
+  location_precise: Южная часть Центральной Азии
+MT: !ruby/struct:CountriesRu::Country
   name: Мальта
   fullname: Республика Мальта
   english: Malta
@@ -1114,8 +1114,8 @@ MT:
   alpha3: MLT
   iso: '470'
   location: Европа
-  location-precise: Южная Европа
-MA:
+  location_precise: Южная Европа
+MA: !ruby/struct:CountriesRu::Country
   name: Марокко
   fullname: Королевство Марокко
   english: Morocco
@@ -1123,17 +1123,17 @@ MA:
   alpha3: MAR
   iso: '504'
   location: Африка
-  location-precise: Северная Африка
-MQ:
+  location_precise: Северная Африка
+MQ: !ruby/struct:CountriesRu::Country
   name: Мартиника
-  fullname: ! ' '
+  fullname: ''
   english: Martinique
   alpha2: MQ
   alpha3: MTQ
   iso: '474'
   location: Америка
-  location-precise: Карибский бассейн
-MH:
+  location_precise: Карибский бассейн
+MH: !ruby/struct:CountriesRu::Country
   name: Маршалловы острова
   fullname: Республика Маршалловы острова
   english: Marshall Islands
@@ -1141,8 +1141,8 @@ MH:
   alpha3: MHL
   iso: '584'
   location: Океания
-  location-precise: Микронезия
-MX:
+  location_precise: Микронезия
+MX: !ruby/struct:CountriesRu::Country
   name: Мексика
   fullname: Мексиканские Соединенные Штаты
   english: Mexico
@@ -1150,8 +1150,8 @@ MX:
   alpha3: MEX
   iso: '484'
   location: Америка
-  location-precise: Центральная Америка
-FM:
+  location_precise: Центральная Америка
+FM: !ruby/struct:CountriesRu::Country
   name: Микронезия, Федеративные Штаты
   fullname: Федеративные штаты Микронезии
   english: Micronesia, Federated States of
@@ -1159,8 +1159,8 @@ FM:
   alpha3: FSM
   iso: '583'
   location: Океания
-  location-precise: Микронезия
-MZ:
+  location_precise: Микронезия
+MZ: !ruby/struct:CountriesRu::Country
   name: Мозамбик
   fullname: Республика Мозамбик
   english: Mozambique
@@ -1168,8 +1168,8 @@ MZ:
   alpha3: MOZ
   iso: '508'
   location: Африка
-  location-precise: Восточная Африка
-MD:
+  location_precise: Восточная Африка
+MD: !ruby/struct:CountriesRu::Country
   name: Молдова, Республика
   fullname: Республика Молдова
   english: Moldova
@@ -1177,8 +1177,8 @@ MD:
   alpha3: MDA
   iso: '498'
   location: Европа
-  location-precise: Восточная Европа
-MC:
+  location_precise: Восточная Европа
+MC: !ruby/struct:CountriesRu::Country
   name: Монако
   fullname: Княжество Монако
   english: Monaco
@@ -1186,26 +1186,26 @@ MC:
   alpha3: MCO
   iso: '492'
   location: Европа
-  location-precise: Западная Европа
-MN:
+  location_precise: Западная Европа
+MN: !ruby/struct:CountriesRu::Country
   name: Монголия
-  fullname: ! ' '
+  fullname: ''
   english: Mongolia
   alpha2: MN
   alpha3: MNG
   iso: '496'
   location: Азия
-  location-precise: Восточная Азия
-MS:
+  location_precise: Восточная Азия
+MS: !ruby/struct:CountriesRu::Country
   name: Монтсеррат
-  fullname: ! ' '
+  fullname: ''
   english: Montserrat
   alpha2: MS
   alpha3: MSR
   iso: '500'
   location: Америка
-  location-precise: Карибский бассейн
-MM:
+  location_precise: Карибский бассейн
+MM: !ruby/struct:CountriesRu::Country
   name: Мьянма
   fullname: Союз Мьянма
   english: Myanmar
@@ -1213,8 +1213,8 @@ MM:
   alpha3: MMR
   iso: '104'
   location: Азия
-  location-precise: Юго-Восточная Азия
-NA:
+  location_precise: Юго-Восточная Азия
+NA: !ruby/struct:CountriesRu::Country
   name: Намибия
   fullname: Республика Намибия
   english: Namibia
@@ -1222,8 +1222,8 @@ NA:
   alpha3: NAM
   iso: '516'
   location: Африка
-  location-precise: Южная часть Африки
-NR:
+  location_precise: Южная часть Африки
+NR: !ruby/struct:CountriesRu::Country
   name: Науру
   fullname: Республика Науру
   english: Nauru
@@ -1231,8 +1231,8 @@ NR:
   alpha3: NRU
   iso: '520'
   location: Океания
-  location-precise: Микронезия
-NP:
+  location_precise: Микронезия
+NP: !ruby/struct:CountriesRu::Country
   name: Непал
   fullname: Федеративная Демократическая Республика Непал
   english: Nepal
@@ -1240,8 +1240,8 @@ NP:
   alpha3: NPL
   iso: '524'
   location: Азия
-  location-precise: Южная часть Центральной Азии
-NE:
+  location_precise: Южная часть Центральной Азии
+NE: !ruby/struct:CountriesRu::Country
   name: Нигер
   fullname: Республика Нигер
   english: Niger
@@ -1249,8 +1249,8 @@ NE:
   alpha3: NER
   iso: '562'
   location: Африка
-  location-precise: Западная Африка
-NG:
+  location_precise: Западная Африка
+NG: !ruby/struct:CountriesRu::Country
   name: Нигерия
   fullname: Федеративная Республика Нигерия
   english: Nigeria
@@ -1258,8 +1258,8 @@ NG:
   alpha3: NGA
   iso: '566'
   location: Африка
-  location-precise: Западная Африка
-NL:
+  location_precise: Западная Африка
+NL: !ruby/struct:CountriesRu::Country
   name: Нидерланды
   fullname: Королевство Нидерландов
   english: Netherlands
@@ -1267,8 +1267,8 @@ NL:
   alpha3: NLD
   iso: '528'
   location: Европа
-  location-precise: Западная Европа
-NI:
+  location_precise: Западная Европа
+NI: !ruby/struct:CountriesRu::Country
   name: Никарагуа
   fullname: Республика Никарагуа
   english: Nicaragua
@@ -1276,8 +1276,8 @@ NI:
   alpha3: NIC
   iso: '558'
   location: Америка
-  location-precise: Центральная Америка
-NU:
+  location_precise: Центральная Америка
+NU: !ruby/struct:CountriesRu::Country
   name: Ниуэ
   fullname: Республика Ниуэ
   english: Niue
@@ -1285,26 +1285,26 @@ NU:
   alpha3: NIU
   iso: '570'
   location: Океания
-  location-precise: Полинезия
-NZ:
+  location_precise: Полинезия
+NZ: !ruby/struct:CountriesRu::Country
   name: Новая Зеландия
-  fullname: ! ' '
+  fullname: ''
   english: New Zealand
   alpha2: NZ
   alpha3: NZL
   iso: '554'
   location: Океания
-  location-precise: Австралия и Новая Зеландия
-NC:
+  location_precise: Австралия и Новая Зеландия
+NC: !ruby/struct:CountriesRu::Country
   name: Новая Каледония
-  fullname: ! ' '
+  fullname: ''
   english: New Caledonia
   alpha2: NC
   alpha3: NCL
   iso: '540'
   location: Океания
-  location-precise: Меланезия
-'NO':
+  location_precise: Меланезия
+'NO': !ruby/struct:CountriesRu::Country
   name: Норвегия
   fullname: Королевство Норвегия
   english: Norway
@@ -1312,17 +1312,17 @@ NC:
   alpha3: NOR
   iso: '578'
   location: Европа
-  location-precise: Северная Европа
-AE:
+  location_precise: Северная Европа
+AE: !ruby/struct:CountriesRu::Country
   name: Объединенные Арабские Эмираты
-  fullname: ! ' '
+  fullname: ''
   english: United Arab Emirates
   alpha2: AE
   alpha3: ARE
   iso: '784'
   location: Азия
-  location-precise: Западная Азия
-OM:
+  location_precise: Западная Азия
+OM: !ruby/struct:CountriesRu::Country
   name: Оман
   fullname: Султанат Оман
   english: Oman
@@ -1330,80 +1330,80 @@ OM:
   alpha3: OMN
   iso: '512'
   location: Азия
-  location-precise: Западная Азия
-BV:
+  location_precise: Западная Азия
+BV: !ruby/struct:CountriesRu::Country
   name: Остров Буве
-  fullname: ! ' '
+  fullname: ''
   english: Bouvet Island
   alpha2: BV
   alpha3: BVT
   iso: '074'
-  location: ! ' '
-  location-precise: Южный океан
-IM:
+  location: ''
+  location_precise: Южный океан
+IM: !ruby/struct:CountriesRu::Country
   name: Остров Мэн
-  fullname: ! ' '
+  fullname: ''
   english: Isle of Man
   alpha2: IM
   alpha3: IMN
   iso: '833'
   location: Европа
-  location-precise: Северная Европа
-NF:
+  location_precise: Северная Европа
+NF: !ruby/struct:CountriesRu::Country
   name: Остров Норфолк
-  fullname: ! ' '
+  fullname: ''
   english: Norfolk Island
   alpha2: NF
   alpha3: NFK
   iso: '574'
   location: Океания
-  location-precise: Австралия и Новая Зеландия
-CX:
+  location_precise: Австралия и Новая Зеландия
+CX: !ruby/struct:CountriesRu::Country
   name: Остров Рождества
-  fullname: ! ' '
+  fullname: ''
   english: Christmas Island
   alpha2: CX
   alpha3: CXR
   iso: '162'
   location: Азия
-  location-precise: Индийский океан
-HM:
+  location_precise: Индийский океан
+HM: !ruby/struct:CountriesRu::Country
   name: Остров Херд и острова Макдональд
-  fullname: ! ' '
+  fullname: ''
   english: Heard Island and McDonald Islands
   alpha2: HM
   alpha3: HMD
   iso: '334'
-  location: ! ' '
-  location-precise: Индийский океан
-KY:
+  location: ''
+  location_precise: Индийский океан
+KY: !ruby/struct:CountriesRu::Country
   name: Острова Кайман
-  fullname: ! ' '
+  fullname: ''
   english: Cayman Islands
   alpha2: KY
   alpha3: CYM
   iso: '136'
   location: Америка
-  location-precise: Карибский бассейн
-CK:
+  location_precise: Карибский бассейн
+CK: !ruby/struct:CountriesRu::Country
   name: Острова Кука
-  fullname: ! ' '
+  fullname: ''
   english: Cook Islands
   alpha2: CK
   alpha3: COK
   iso: '184'
   location: Океания
-  location-precise: Полинезия
-TC:
+  location_precise: Полинезия
+TC: !ruby/struct:CountriesRu::Country
   name: Острова Теркс и Кайкос
-  fullname: ! ' '
+  fullname: ''
   english: Turks and Caicos Islands
   alpha2: TC
   alpha3: TCA
   iso: '796'
   location: Америка
-  location-precise: Карибский бассейн
-PK:
+  location_precise: Карибский бассейн
+PK: !ruby/struct:CountriesRu::Country
   name: Пакистан
   fullname: Исламская Республика Пакистан
   english: Pakistan
@@ -1411,8 +1411,8 @@ PK:
   alpha3: PAK
   iso: '586'
   location: Азия
-  location-precise: Южная часть Центральной Азии
-PW:
+  location_precise: Южная часть Центральной Азии
+PW: !ruby/struct:CountriesRu::Country
   name: Палау
   fullname: Республика Палау
   english: Palau
@@ -1420,8 +1420,8 @@ PW:
   alpha3: PLW
   iso: '585'
   location: Океания
-  location-precise: Микронезия
-PS:
+  location_precise: Микронезия
+PS: !ruby/struct:CountriesRu::Country
   name: Палестинская территория, оккупированная
   fullname: Оккупированная Палестинская территория
   english: Palestinian Territory, Occupied
@@ -1429,8 +1429,8 @@ PS:
   alpha3: PSE
   iso: '275'
   location: Азия
-  location-precise: Западная Азия
-PA:
+  location_precise: Западная Азия
+PA: !ruby/struct:CountriesRu::Country
   name: Панама
   fullname: Республика Панама
   english: Panama
@@ -1438,26 +1438,26 @@ PA:
   alpha3: PAN
   iso: '591'
   location: Америка
-  location-precise: Центральная Америка
-VA:
+  location_precise: Центральная Америка
+VA: !ruby/struct:CountriesRu::Country
   name: Папский Престол (Государство — город Ватикан)
-  fullname: ! ' '
+  fullname: ''
   english: Holy See (Vatican City State)
   alpha2: VA
   alpha3: VAT
   iso: '336'
   location: Европа
-  location-precise: Южная Европа
-PG:
+  location_precise: Южная Европа
+PG: !ruby/struct:CountriesRu::Country
   name: Папуа-Новая Гвинея
-  fullname: ! ' '
+  fullname: ''
   english: Papua New Guinea
   alpha2: PG
   alpha3: PNG
   iso: '598'
   location: Океания
-  location-precise: Меланезия
-PY:
+  location_precise: Меланезия
+PY: !ruby/struct:CountriesRu::Country
   name: Парагвай
   fullname: Республика Парагвай
   english: Paraguay
@@ -1465,8 +1465,8 @@ PY:
   alpha3: PRY
   iso: '600'
   location: Америка
-  location-precise: Южная Америка
-PE:
+  location_precise: Южная Америка
+PE: !ruby/struct:CountriesRu::Country
   name: Перу
   fullname: Республика Перу
   english: Peru
@@ -1474,17 +1474,17 @@ PE:
   alpha3: PER
   iso: '604'
   location: Америка
-  location-precise: Южная Америка
-PN:
+  location_precise: Южная Америка
+PN: !ruby/struct:CountriesRu::Country
   name: Питкерн
-  fullname: ! ' '
+  fullname: ''
   english: Pitcairn
   alpha2: PN
   alpha3: PCN
   iso: '612'
   location: Океания
-  location-precise: Полинезия
-PL:
+  location_precise: Полинезия
+PL: !ruby/struct:CountriesRu::Country
   name: Польша
   fullname: Республика Польша
   english: Poland
@@ -1492,8 +1492,8 @@ PL:
   alpha3: POL
   iso: '616'
   location: Европа
-  location-precise: Восточная Европа
-PT:
+  location_precise: Восточная Европа
+PT: !ruby/struct:CountriesRu::Country
   name: Португалия
   fullname: Португальская Республика
   english: Portugal
@@ -1501,35 +1501,35 @@ PT:
   alpha3: PRT
   iso: '620'
   location: Европа
-  location-precise: Южная Европа
-PR:
+  location_precise: Южная Европа
+PR: !ruby/struct:CountriesRu::Country
   name: Пуэрто-Рико
-  fullname: ! ' '
+  fullname: ''
   english: Puerto Rico
   alpha2: PR
   alpha3: PRI
   iso: '630'
   location: Америка
-  location-precise: Карибский бассейн
-MK:
+  location_precise: Карибский бассейн
+MK: !ruby/struct:CountriesRu::Country
   name: Республика Македония
-  fullname: ! ' '
+  fullname: ''
   english: Macedonia, The Former Yugoslab Republic Of
   alpha2: MK
   alpha3: MKD
   iso: '807'
   location: Европа
-  location-precise: Южная Европа
-RE:
+  location_precise: Южная Европа
+RE: !ruby/struct:CountriesRu::Country
   name: Реюньон
-  fullname: ! ' '
+  fullname: ''
   english: Reunion
   alpha2: RE
   alpha3: REU
   iso: '638'
   location: Африка
-  location-precise: Восточная Африка
-RU:
+  location_precise: Восточная Африка
+RU: !ruby/struct:CountriesRu::Country
   name: Россия
   fullname: Российская Федерация
   english: Russian Federation
@@ -1537,8 +1537,8 @@ RU:
   alpha3: RUS
   iso: '643'
   location: Европа
-  location-precise: Восточная Европа
-RW:
+  location_precise: Восточная Европа
+RW: !ruby/struct:CountriesRu::Country
   name: Руанда
   fullname: Руандийская Республика
   english: Rwanda
@@ -1546,17 +1546,17 @@ RW:
   alpha3: RWA
   iso: '646'
   location: Африка
-  location-precise: Восточная Африка
-RO:
+  location_precise: Восточная Африка
+RO: !ruby/struct:CountriesRu::Country
   name: Румыния
-  fullname: ! ' '
+  fullname: ''
   english: Romania
   alpha2: RO
   alpha3: ROU
   iso: '642'
   location: Европа
-  location-precise: Восточная Европа
-WS:
+  location_precise: Восточная Европа
+WS: !ruby/struct:CountriesRu::Country
   name: Самоа
   fullname: Независимое Государство Самоа
   english: Samoa
@@ -1564,8 +1564,8 @@ WS:
   alpha3: WSM
   iso: '882'
   location: Океания
-  location-precise: Полинезия
-SM:
+  location_precise: Полинезия
+SM: !ruby/struct:CountriesRu::Country
   name: Сан-Марино
   fullname: Республика Сан-Марино
   english: San Marino
@@ -1573,8 +1573,8 @@ SM:
   alpha3: SMR
   iso: '674'
   location: Европа
-  location-precise: Южная Европа
-ST:
+  location_precise: Южная Европа
+ST: !ruby/struct:CountriesRu::Country
   name: Сан-Томе и Принсипи
   fullname: Демократическая Республика Сан-Томе и Принсипи
   english: Sao Tome and Principe
@@ -1582,8 +1582,8 @@ ST:
   alpha3: STP
   iso: '678'
   location: Африка
-  location-precise: Центральная Африка
-SA:
+  location_precise: Центральная Африка
+SA: !ruby/struct:CountriesRu::Country
   name: Саудовская Аравия
   fullname: Королевство Саудовская Аравия
   english: Saudi Arabia
@@ -1591,8 +1591,8 @@ SA:
   alpha3: SAU
   iso: '682'
   location: Азия
-  location-precise: Западная Азия
-SZ:
+  location_precise: Западная Азия
+SZ: !ruby/struct:CountriesRu::Country
   name: Свазиленд
   fullname: Королевство Свазиленд
   english: Swaziland
@@ -1600,17 +1600,17 @@ SZ:
   alpha3: SWZ
   iso: '748'
   location: Африка
-  location-precise: Южная часть Африки
-SH:
+  location_precise: Южная часть Африки
+SH: !ruby/struct:CountriesRu::Country
   name: Святая Елена, Остров вознесения, Тристан-да-Кунья
-  fullname: ! ' '
+  fullname: ''
   english: Saint Helena, Ascension And Tristan Da Cunha
   alpha2: SH
   alpha3: SHN
   iso: '654'
   location: Африка
-  location-precise: Западная Африка
-MP:
+  location_precise: Западная Африка
+MP: !ruby/struct:CountriesRu::Country
   name: Северные Марианские острова
   fullname: Содружество Северных Марианских островов
   english: Northern Mariana Islands
@@ -1618,26 +1618,26 @@ MP:
   alpha3: MNP
   iso: '580'
   location: Океания
-  location-precise: Микронезия
-BL:
+  location_precise: Микронезия
+BL: !ruby/struct:CountriesRu::Country
   name: Сен-Бартельми
-  fullname: ! ' '
+  fullname: ''
   english: Saint Barthélemy
   alpha2: BL
   alpha3: BLM
   iso: '652'
   location: Америка
-  location-precise: Карибский бассейн
-MF:
+  location_precise: Карибский бассейн
+MF: !ruby/struct:CountriesRu::Country
   name: Сен-Мартен
-  fullname: ! ' '
+  fullname: ''
   english: Saint Martin (French Part)
   alpha2: MF
   alpha3: MAF
   iso: '663'
   location: Америка
-  location-precise: Карибский бассейн
-SN:
+  location_precise: Карибский бассейн
+SN: !ruby/struct:CountriesRu::Country
   name: Сенегал
   fullname: Республика Сенегал
   english: Senegal
@@ -1645,44 +1645,44 @@ SN:
   alpha3: SEN
   iso: '686'
   location: Африка
-  location-precise: Западная Африка
-VC:
+  location_precise: Западная Африка
+VC: !ruby/struct:CountriesRu::Country
   name: Сент-Винсент и Гренадины
-  fullname: ! ' '
+  fullname: ''
   english: Saint Vincent and the Grenadines
   alpha2: VC
   alpha3: VCT
   iso: '670'
   location: Америка
-  location-precise: Карибский бассейн
-LC:
+  location_precise: Карибский бассейн
+LC: !ruby/struct:CountriesRu::Country
   name: Сент-Люсия
-  fullname: ! ' '
+  fullname: ''
   english: Saint Lucia
   alpha2: LC
   alpha3: LCA
   iso: '662'
   location: Америка
-  location-precise: Карибский бассейн
-KN:
+  location_precise: Карибский бассейн
+KN: !ruby/struct:CountriesRu::Country
   name: Сент-Китс и Невис
-  fullname: ! ' '
+  fullname: ''
   english: Saint Kitts and Nevis
   alpha2: KN
   alpha3: KNA
   iso: '659'
   location: Америка
-  location-precise: Карибский бассейн
-PM:
+  location_precise: Карибский бассейн
+PM: !ruby/struct:CountriesRu::Country
   name: Сент-Пьер и Микелон
-  fullname: ! ' '
+  fullname: ''
   english: Saint Pierre and Miquelon
   alpha2: PM
   alpha3: SPM
   iso: '666'
   location: Америка
-  location-precise: Северная Америка
-RS:
+  location_precise: Северная Америка
+RS: !ruby/struct:CountriesRu::Country
   name: Сербия
   fullname: Республика Сербия
   english: Serbia
@@ -1690,8 +1690,8 @@ RS:
   alpha3: SRB
   iso: '688'
   location: Европа
-  location-precise: Южная Европа
-SC:
+  location_precise: Южная Европа
+SC: !ruby/struct:CountriesRu::Country
   name: Сейшелы
   fullname: Республика Сейшелы
   english: Seychelles
@@ -1699,8 +1699,8 @@ SC:
   alpha3: SYC
   iso: '690'
   location: Африка
-  location-precise: Восточная Африка
-SG:
+  location_precise: Восточная Африка
+SG: !ruby/struct:CountriesRu::Country
   name: Сингапур
   fullname: Республика Сингапур
   english: Singapore
@@ -1708,26 +1708,26 @@ SG:
   alpha3: SGP
   iso: '702'
   location: Азия
-  location-precise: Юго-Восточная Азия
-SX:
+  location_precise: Юго-Восточная Азия
+SX: !ruby/struct:CountriesRu::Country
   name: Синт-Мартен
-  fullname: ! ' '
+  fullname: ''
   english: Sint Maarten
   alpha2: SX
   alpha3: SXM
   iso: '534'
   location: Америка
-  location-precise: Карибский бассейн
-SY:
+  location_precise: Карибский бассейн
+SY: !ruby/struct:CountriesRu::Country
   name: Сирийская Арабская Республика
-  fullname: ! ' '
+  fullname: ''
   english: Syrian Arab Republic
   alpha2: SY
   alpha3: SYR
   iso: '760'
   location: Азия
-  location-precise: Западная Азия
-SK:
+  location_precise: Западная Азия
+SK: !ruby/struct:CountriesRu::Country
   name: Словакия
   fullname: Словацкая Республика
   english: Slovakia
@@ -1735,8 +1735,8 @@ SK:
   alpha3: SVK
   iso: '703'
   location: Европа
-  location-precise: Восточная Европа
-SI:
+  location_precise: Восточная Европа
+SI: !ruby/struct:CountriesRu::Country
   name: Словения
   fullname: Республика Словения
   english: Slovenia
@@ -1744,8 +1744,8 @@ SI:
   alpha3: SVN
   iso: '705'
   location: Европа
-  location-precise: Южная Европа
-GB:
+  location_precise: Южная Европа
+GB: !ruby/struct:CountriesRu::Country
   name: Соединенное Королевство
   fullname: Соединенное Королевство Великобритании и Северной Ирландии
   english: United Kingdom
@@ -1753,8 +1753,8 @@ GB:
   alpha3: GBR
   iso: '826'
   location: Европа
-  location-precise: Северная Европа
-US:
+  location_precise: Северная Европа
+US: !ruby/struct:CountriesRu::Country
   name: Соединенные Штаты
   fullname: Соединенные Штаты Америки
   english: United States
@@ -1762,17 +1762,17 @@ US:
   alpha3: USA
   iso: '840'
   location: Америка
-  location-precise: Северная Америка
-SB:
+  location_precise: Северная Америка
+SB: !ruby/struct:CountriesRu::Country
   name: Соломоновы острова
-  fullname: ! ' '
+  fullname: ''
   english: Solomon Islands
   alpha2: SB
   alpha3: SLB
   iso: 090
   location: Океания
-  location-precise: Меланезия
-SO:
+  location_precise: Меланезия
+SO: !ruby/struct:CountriesRu::Country
   name: Сомали
   fullname: Сомалийская Республика
   english: Somalia
@@ -1780,8 +1780,8 @@ SO:
   alpha3: SOM
   iso: '706'
   location: Африка
-  location-precise: Восточная Африка
-SD:
+  location_precise: Восточная Африка
+SD: !ruby/struct:CountriesRu::Country
   name: Судан
   fullname: Республика Судан
   english: Sudan
@@ -1789,8 +1789,8 @@ SD:
   alpha3: SDN
   iso: '736'
   location: Африка
-  location-precise: Северная Африка
-SR:
+  location_precise: Северная Африка
+SR: !ruby/struct:CountriesRu::Country
   name: Суринам
   fullname: Республика Суринам
   english: Suriname
@@ -1798,8 +1798,8 @@ SR:
   alpha3: SUR
   iso: '740'
   location: Америка
-  location-precise: Южная Америка
-SL:
+  location_precise: Южная Америка
+SL: !ruby/struct:CountriesRu::Country
   name: Сьерра-Леоне
   fullname: Республика Сьерра-Леоне
   english: Sierra Leone
@@ -1807,8 +1807,8 @@ SL:
   alpha3: SLE
   iso: '694'
   location: Африка
-  location-precise: Западная Африка
-TJ:
+  location_precise: Западная Африка
+TJ: !ruby/struct:CountriesRu::Country
   name: Таджикистан
   fullname: Республика Таджикистан
   english: Tajikistan
@@ -1816,8 +1816,8 @@ TJ:
   alpha3: TJK
   iso: '762'
   location: Азия
-  location-precise: Южная часть Центральной Азии
-TH:
+  location_precise: Южная часть Центральной Азии
+TH: !ruby/struct:CountriesRu::Country
   name: Таиланд
   fullname: Королевство Таиланд
   english: Thailand
@@ -1825,17 +1825,17 @@ TH:
   alpha3: THA
   iso: '764'
   location: Азия
-  location-precise: Юго-Восточная Азия
-TW:
+  location_precise: Юго-Восточная Азия
+TW: !ruby/struct:CountriesRu::Country
   name: Тайвань (Китай)
-  fullname: ! ' '
+  fullname: ''
   english: Taiwan, Province of China
   alpha2: TW
   alpha3: TWN
   iso: '158'
   location: Азия
-  location-precise: Восточная Азия
-TZ:
+  location_precise: Восточная Азия
+TZ: !ruby/struct:CountriesRu::Country
   name: Танзания, Объединенная Республика
   fullname: Объединенная Республика Танзания
   english: Tanzania, United Republic Of
@@ -1843,8 +1843,8 @@ TZ:
   alpha3: TZA
   iso: '834'
   location: Африка
-  location-precise: Восточная Африка
-TL:
+  location_precise: Восточная Африка
+TL: !ruby/struct:CountriesRu::Country
   name: Тимор-Лесте
   fullname: Демократическая Республика Тимор-Лесте
   english: Timor-Leste
@@ -1852,8 +1852,8 @@ TL:
   alpha3: TLS
   iso: '626'
   location: Азия
-  location-precise: Юго-Восточная Азия
-TG:
+  location_precise: Юго-Восточная Азия
+TG: !ruby/struct:CountriesRu::Country
   name: Того
   fullname: Тоголезская Республика
   english: Togo
@@ -1861,17 +1861,17 @@ TG:
   alpha3: TGO
   iso: '768'
   location: Африка
-  location-precise: Западная Африка
-TK:
+  location_precise: Западная Африка
+TK: !ruby/struct:CountriesRu::Country
   name: Токелау
-  fullname: ! ' '
+  fullname: ''
   english: Tokelau
   alpha2: TK
   alpha3: TKL
   iso: '772'
   location: Океания
-  location-precise: Полинезия
-TO:
+  location_precise: Полинезия
+TO: !ruby/struct:CountriesRu::Country
   name: Тонга
   fullname: Королевство Тонга
   english: Tonga
@@ -1879,8 +1879,8 @@ TO:
   alpha3: TON
   iso: '776'
   location: Океания
-  location-precise: Полинезия
-TT:
+  location_precise: Полинезия
+TT: !ruby/struct:CountriesRu::Country
   name: Тринидад и Тобаго
   fullname: Республика Тринидад и Тобаго
   english: Trinidad and Tobago
@@ -1888,17 +1888,17 @@ TT:
   alpha3: TTO
   iso: '780'
   location: Америка
-  location-precise: Карибский бассейн
-TV:
+  location_precise: Карибский бассейн
+TV: !ruby/struct:CountriesRu::Country
   name: Тувалу
-  fullname: ! ' '
+  fullname: ''
   english: Tuvalu
   alpha2: TV
   alpha3: TUV
   iso: '798'
   location: Океания
-  location-precise: Полинезия
-TN:
+  location_precise: Полинезия
+TN: !ruby/struct:CountriesRu::Country
   name: Тунис
   fullname: Тунисская Республика
   english: Tunisia
@@ -1906,8 +1906,8 @@ TN:
   alpha3: TUN
   iso: '788'
   location: Африка
-  location-precise: Северная Африка
-TM:
+  location_precise: Северная Африка
+TM: !ruby/struct:CountriesRu::Country
   name: Туркмения
   fullname: Туркменистан
   english: Turkmenistan
@@ -1915,8 +1915,8 @@ TM:
   alpha3: TKM
   iso: '795'
   location: Азия
-  location-precise: Южная часть Центральной Азии
-TR:
+  location_precise: Южная часть Центральной Азии
+TR: !ruby/struct:CountriesRu::Country
   name: Турция
   fullname: Турецкая Республика
   english: Turkey
@@ -1924,8 +1924,8 @@ TR:
   alpha3: TUR
   iso: '792'
   location: Азия
-  location-precise: Западная Азия
-UG:
+  location_precise: Западная Азия
+UG: !ruby/struct:CountriesRu::Country
   name: Уганда
   fullname: Республика Уганда
   english: Uganda
@@ -1933,8 +1933,8 @@ UG:
   alpha3: UGA
   iso: '800'
   location: Африка
-  location-precise: Восточная Африка
-UZ:
+  location_precise: Восточная Африка
+UZ: !ruby/struct:CountriesRu::Country
   name: Узбекистан
   fullname: Республика Узбекистан
   english: Uzbekistan
@@ -1942,26 +1942,26 @@ UZ:
   alpha3: UZB
   iso: '860'
   location: Азия
-  location-precise: Южная часть Центральной Азии
-UA:
+  location_precise: Южная часть Центральной Азии
+UA: !ruby/struct:CountriesRu::Country
   name: Украина
-  fullname: ! ' '
+  fullname: ''
   english: Ukraine
   alpha2: UA
   alpha3: UKR
   iso: '804'
   location: Европа
-  location-precise: Восточная Европа
-WF:
+  location_precise: Восточная Европа
+WF: !ruby/struct:CountriesRu::Country
   name: Уоллис и Футуна
-  fullname: ! ' '
+  fullname: ''
   english: Wallis and Futuna
   alpha2: WF
   alpha3: WLF
   iso: '876'
   location: Океания
-  location-precise: Полинезия
-UY:
+  location_precise: Полинезия
+UY: !ruby/struct:CountriesRu::Country
   name: Уругвай
   fullname: Восточная Республика Уругвай
   english: Uruguay
@@ -1969,17 +1969,17 @@ UY:
   alpha3: URY
   iso: '858'
   location: Америка
-  location-precise: Южная Америка
-FO:
+  location_precise: Южная Америка
+FO: !ruby/struct:CountriesRu::Country
   name: Фарерские острова
-  fullname: ! ' '
+  fullname: ''
   english: Faroe Islands
   alpha2: FO
   alpha3: FRO
   iso: '234'
   location: Европа
-  location-precise: Северная Европа
-FJ:
+  location_precise: Северная Европа
+FJ: !ruby/struct:CountriesRu::Country
   name: Фиджи
   fullname: Республика островов Фиджи
   english: Fiji
@@ -1987,8 +1987,8 @@ FJ:
   alpha3: FJI
   iso: '242'
   location: Океания
-  location-precise: Меланезия
-PH:
+  location_precise: Меланезия
+PH: !ruby/struct:CountriesRu::Country
   name: Филиппины
   fullname: Республика Филиппины
   english: Philippines
@@ -1996,8 +1996,8 @@ PH:
   alpha3: PHL
   iso: '608'
   location: Азия
-  location-precise: Юго-Восточная Азия
-FI:
+  location_precise: Юго-Восточная Азия
+FI: !ruby/struct:CountriesRu::Country
   name: Финляндия
   fullname: Финляндская Республика
   english: Finland
@@ -2005,17 +2005,17 @@ FI:
   alpha3: FIN
   iso: '246'
   location: Европа
-  location-precise: Северная Европа
-FK:
+  location_precise: Северная Европа
+FK: !ruby/struct:CountriesRu::Country
   name: Фолклендские острова (Мальвинские)
-  fullname: ! ' '
+  fullname: ''
   english: Falkland Islands (Malvinas)
   alpha2: FK
   alpha3: FLK
   iso: '238'
   location: Америка
-  location-precise: Южная Америка
-FR:
+  location_precise: Южная Америка
+FR: !ruby/struct:CountriesRu::Country
   name: Франция
   fullname: Французская Республика
   english: France
@@ -2023,35 +2023,35 @@ FR:
   alpha3: FRA
   iso: '250'
   location: Европа
-  location-precise: Западная Европа
-GF:
+  location_precise: Западная Европа
+GF: !ruby/struct:CountriesRu::Country
   name: Французская Гвиана
-  fullname: ! ' '
+  fullname: ''
   english: French Guiana
   alpha2: GF
   alpha3: GUF
   iso: '254'
   location: Америка
-  location-precise: Южная Америка
-PF:
+  location_precise: Южная Америка
+PF: !ruby/struct:CountriesRu::Country
   name: Французская Полинезия
-  fullname: ! ' '
+  fullname: ''
   english: French Polynesia
   alpha2: PF
   alpha3: PYF
   iso: '258'
   location: Океания
-  location-precise: Полинезия
-TF:
+  location_precise: Полинезия
+TF: !ruby/struct:CountriesRu::Country
   name: Французские Южные территории
-  fullname: ! ' '
+  fullname: ''
   english: French Southern Territories
   alpha2: TF
   alpha3: ATF
   iso: '260'
-  location: ! ' '
-  location-precise: Индийский океан
-HR:
+  location: ''
+  location_precise: Индийский океан
+HR: !ruby/struct:CountriesRu::Country
   name: Хорватия
   fullname: Республика Хорватия
   english: Croatia
@@ -2059,17 +2059,17 @@ HR:
   alpha3: HRV
   iso: '191'
   location: Европа
-  location-precise: Южная Европа
-CF:
+  location_precise: Южная Европа
+CF: !ruby/struct:CountriesRu::Country
   name: Центрально-Африканская Республика
-  fullname: ! ' '
+  fullname: ''
   english: Central African Republic
   alpha2: CF
   alpha3: CAF
   iso: '140'
   location: Африка
-  location-precise: Центральная Африка
-TD:
+  location_precise: Центральная Африка
+TD: !ruby/struct:CountriesRu::Country
   name: Чад
   fullname: Республика Чад
   english: Chad
@@ -2077,8 +2077,8 @@ TD:
   alpha3: TCD
   iso: '148'
   location: Африка
-  location-precise: Центральная Африка
-ME:
+  location_precise: Центральная Африка
+ME: !ruby/struct:CountriesRu::Country
   name: Черногория
   fullname: Республика Черногория
   english: Montenegro
@@ -2086,17 +2086,17 @@ ME:
   alpha3: MNE
   iso: '499'
   location: Европа
-  location-precise: Южная Европа
-CZ:
+  location_precise: Южная Европа
+CZ: !ruby/struct:CountriesRu::Country
   name: Чешская Республика
-  fullname: ! ' '
+  fullname: ''
   english: Czech Republic
   alpha2: CZ
   alpha3: CZE
   iso: '203'
   location: Европа
-  location-precise: Восточная Европа
-CL:
+  location_precise: Восточная Европа
+CL: !ruby/struct:CountriesRu::Country
   name: Чили
   fullname: Республика Чили
   english: Chile
@@ -2104,8 +2104,8 @@ CL:
   alpha3: CHL
   iso: '152'
   location: Америка
-  location-precise: Южная Америка
-CH:
+  location_precise: Южная Америка
+CH: !ruby/struct:CountriesRu::Country
   name: Швейцария
   fullname: Швейцарская Конфедерация
   english: Switzerland
@@ -2113,8 +2113,8 @@ CH:
   alpha3: CHE
   iso: '756'
   location: Европа
-  location-precise: Западная Европа
-SE:
+  location_precise: Западная Европа
+SE: !ruby/struct:CountriesRu::Country
   name: Швеция
   fullname: Королевство Швеция
   english: Sweden
@@ -2122,17 +2122,17 @@ SE:
   alpha3: SWE
   iso: '752'
   location: Европа
-  location-precise: Северная Европа
-SJ:
+  location_precise: Северная Европа
+SJ: !ruby/struct:CountriesRu::Country
   name: Шпицберген и Ян Майен
-  fullname: ! ' '
+  fullname: ''
   english: Svalbard and Jan Mayen
   alpha2: SJ
   alpha3: SJM
   iso: '744'
   location: Европа
-  location-precise: Северная Европа
-LK:
+  location_precise: Северная Европа
+LK: !ruby/struct:CountriesRu::Country
   name: Шри-Ланка
   fullname: Демократическая Социалистическая Республика Шри-Ланка
   english: Sri Lanka
@@ -2140,8 +2140,8 @@ LK:
   alpha3: LKA
   iso: '144'
   location: Азия
-  location-precise: Южная часть Центральной Азии
-EC:
+  location_precise: Южная часть Центральной Азии
+EC: !ruby/struct:CountriesRu::Country
   name: Эквадор
   fullname: Республика Эквадор
   english: Ecuador
@@ -2149,8 +2149,8 @@ EC:
   alpha3: ECU
   iso: '218'
   location: Америка
-  location-precise: Южная Америка
-GQ:
+  location_precise: Южная Америка
+GQ: !ruby/struct:CountriesRu::Country
   name: Экваториальная Гвинея
   fullname: Республика Экваториальная Гвинея
   english: Equatorial Guinea
@@ -2158,17 +2158,17 @@ GQ:
   alpha3: GNQ
   iso: '226'
   location: Африка
-  location-precise: Центральная Африка
-AX:
+  location_precise: Центральная Африка
+AX: !ruby/struct:CountriesRu::Country
   name: Эландские острова
-  fullname: ! ' '
+  fullname: ''
   english: Åland Islands
   alpha2: AX
   alpha3: ALA
   iso: '248'
   location: Европа
-  location-precise: Северная Европа
-SV:
+  location_precise: Северная Европа
+SV: !ruby/struct:CountriesRu::Country
   name: Эль-Сальвадор
   fullname: Республика Эль-Сальвадор
   english: El Salvador
@@ -2176,17 +2176,17 @@ SV:
   alpha3: SLV
   iso: '222'
   location: Америка
-  location-precise: Центральная Америка
-ER:
+  location_precise: Центральная Америка
+ER: !ruby/struct:CountriesRu::Country
   name: Эритрея
-  fullname: ! ' '
+  fullname: ''
   english: Eritrea
   alpha2: ER
   alpha3: ERI
   iso: '232'
   location: Африка
-  location-precise: Восточная Африка
-EE:
+  location_precise: Восточная Африка
+EE: !ruby/struct:CountriesRu::Country
   name: Эстония
   fullname: Эстонская Республика
   english: Estonia
@@ -2194,8 +2194,8 @@ EE:
   alpha3: EST
   iso: '233'
   location: Европа
-  location-precise: Северная Европа
-ET:
+  location_precise: Северная Европа
+ET: !ruby/struct:CountriesRu::Country
   name: Эфиопия
   fullname: Федеративная Демократическая Республика Эфиопия
   english: Ethiopia
@@ -2203,8 +2203,8 @@ ET:
   alpha3: ETH
   iso: '231'
   location: Африка
-  location-precise: Восточная Африка
-ZA:
+  location_precise: Восточная Африка
+ZA: !ruby/struct:CountriesRu::Country
   name: Южная Африка
   fullname: Южно-Африканская Республика
   english: South Africa
@@ -2212,17 +2212,17 @@ ZA:
   alpha3: ZAF
   iso: '710'
   location: Африка
-  location-precise: Южная часть Африки
-GS:
+  location_precise: Южная часть Африки
+GS: !ruby/struct:CountriesRu::Country
   name: Южная Джорджия и Южные Сандвичевы острова
-  fullname: ! ' '
+  fullname: ''
   english: South Georgia and the South Sandwich Islands
   alpha2: GS
   alpha3: SGS
   iso: '239'
-  location: ! ' '
-  location-precise: Южный океан
-OS:
+  location: ''
+  location_precise: Южный океан
+OS: !ruby/struct:CountriesRu::Country
   name: Южная Осетия
   fullname: Республика Южная Осетия
   english: South Ossetia
@@ -2230,31 +2230,31 @@ OS:
   alpha3: OST
   iso: '896'
   location: Азия
-  location-precise: Закавказье
-SS:
+  location_precise: Закавказье
+SS: !ruby/struct:CountriesRu::Country
   name: Южный Судан
-  fullname: ! ' '
+  fullname: ''
   english: South Sudan
   alpha2: SS
   alpha3: SSD
   iso: '728'
   location: Африка
-  location-precise: Северная Африка
-JM:
+  location_precise: Северная Африка
+JM: !ruby/struct:CountriesRu::Country
   name: Ямайка
-  fullname: ! ' '
+  fullname: ''
   english: Jamaica
   alpha2: JM
   alpha3: JAM
   iso: '388'
   location: Америка
-  location-precise: Карибский бассейн
-JP:
+  location_precise: Карибский бассейн
+JP: !ruby/struct:CountriesRu::Country
   name: Япония
-  fullname: ! ' '
+  fullname: ''
   english: Japan
   alpha2: JP
   alpha3: JPN
   iso: '392'
   location: Азия
-  location-precise: Восточная Азия
+  location_precise: Восточная Азия

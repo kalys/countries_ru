@@ -1,6 +1,6 @@
 # CountriesRu
 
-TODO: Write a gem description
+All sorts of useful information about countries in russian language. Source of data is http://www.artlebedev.ru/tools/country-list/.
 
 ## Installation
 
@@ -18,12 +18,41 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+> CountriesRu['US']
+=> #<struct CountriesRu::Country
+ name="Соединенные Штаты",
+ fullname="Соединенные Штаты Америки",
+ english="United States",
+ alpha2="US",
+ alpha3="USA",
+ iso="840",
+ location="Америка",
+ location_precise="Северная Америка">
+ 
+> CountriesRu['US'].name
+=> "Соединенные Штаты"
 
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+> CountriesRu.keys
+=> ["AB",
+ "AU",
+ "AT",
+ "AZ",
+ "AL",
+ "DZ",
+ "AS",
+ # and so on.
+ 
+> CountriesRu.each {|key, country| p [key, country.name].join(' ') }
+ "AB Абхазия"
+ "AU Австралия"
+ "AT Австрия"
+ "AZ Азербайджан" 
+ # and so on 
+ 
+> CountriesRu.map {|key, country| country.name }
+=> ["Абхазия",
+ "Австралия",
+ "Австрия",
+ # and so on.
+ ```
